@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nba-body {
+    background-image: url(nbafinalwall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 25px;
+    color: rgb(182, 194, 231);
+    text-shadow: 3px 2px 3px black;
+}
+
+img {
+    display: block;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+.column {
+    float: left;
+    text-align: center;
+    padding: 3px;
+    width: 500px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
